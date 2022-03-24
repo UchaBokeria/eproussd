@@ -1,0 +1,8 @@
+{
+    "DBHOST": "172.16.50.56",
+    "DBUSER": "root",
+    "DBPASS": "Gl-1114",
+    "DBNAME": "callapp",
+    "DBPORT": "3306",
+    "DBCHAR": "utf8mb4"
+}

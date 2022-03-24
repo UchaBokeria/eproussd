@@ -1,0 +1,37 @@
+{
+    "wrong_route_status": {
+        "code": "400",
+        "success": false,
+        "msg": "Wrong Route"
+    },
+    "auth_error_status": {
+        "code": "401",
+        "success": false,
+        "msg": "Provided Token Is Incorrect"
+    },
+    "success_status": {
+        "code": "200",
+        "success": true,
+        "msg": "Success"
+    },
+    "must_be_post": {
+        "code": "405",
+        "success": false,
+        "msg": "Method Must Be Post"
+    },
+    "must_be_get": {
+        "code": "406",
+        "success": false,
+        "msg": "Method Must Be Get"
+    },
+    "must_be_put": {
+        "code": "407",
+        "success": false,
+        "msg": "Method Must Be Put"
+    },
+    "must_be_Delete": {
+        "code": "408",
+        "success": false,
+        "msg": "Method Must Be Delete"
+    }
+}
