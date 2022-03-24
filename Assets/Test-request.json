@@ -1,0 +1,28 @@
+{
+    "accident": {
+        "event_id": 2,
+        "bu": "xxxx",
+        "cust_number": "Test Number",
+        "cust_name": "Test",
+        "substation": "Subst 312",
+        "feeder": "Feeder 123123",
+        "tp": "TP123",
+        "event_date": "2022-01-01 00:32:33",
+        "enter_date": "2022-01-01 00:32:33",
+        "id": 9
+    },
+    "quality-issue": {
+        "event_id": 2,
+        "bu": "xxxx",
+        "cust_number": "Test Number",
+        "cust_name": "Test",
+        "substation": "Subst 312",
+        "feeder": "Feeder 123123",
+        "tp": "TP123",
+        "ISSUE_TYPE": "TEst",
+        "ISSUE_DESC": "asdasd",
+        "event_date": "2022-01-01 00:32:33",
+        "enter_date": "2022-01-01 00:32:33",
+        "id": 9
+    }
+}
