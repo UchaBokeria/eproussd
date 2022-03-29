@@ -7,7 +7,7 @@
         {
             
             if(!Get()) return MUST_BE_GET;
-            //if(false) return AUTH_ERROR_STATUS;
+            if(true) return AUTH_ERROR_STATUS;
 
             $result = parent::GET(" SELECT  event_id,
                                             bu,
@@ -103,7 +103,7 @@
         {
             
             if(!Post()) return MUST_BE_POST;
-            if(false) return AUTH_ERROR_STATUS;
+            if(true) return AUTH_ERROR_STATUS;
             if(!AccidentScheme::Delete()) return AccidentScheme::$MESSAGE;
 
             parent::SET(" UPDATE ussd SET actived = 0 WHERE id = :id;", [ "id" => $_POST["id"] ]);
