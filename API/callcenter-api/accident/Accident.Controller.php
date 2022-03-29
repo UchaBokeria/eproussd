@@ -7,7 +7,7 @@
         {
             
             if(!Get()) return MUST_BE_GET;
-            if(false) return AUTH_ERROR_STATUS;
+            //if(false) return AUTH_ERROR_STATUS;
 
             $result = parent::GET(" SELECT  event_id,
                                             bu,
